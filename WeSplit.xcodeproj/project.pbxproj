@@ -11,9 +11,7 @@
 		18657F2A2BC1A12C00162492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18657F292BC1A12C00162492 /* ContentView.swift */; };
 		18657F2C2BC1A12E00162492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18657F2B2BC1A12E00162492 /* Assets.xcassets */; };
 		18657F2F2BC1A12E00162492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18657F2E2BC1A12E00162492 /* Preview Assets.xcassets */; };
-		18657F392BC1A12E00162492 /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18657F382BC1A12E00162492 /* WeSplitTests.swift */; };
-		18657F432BC1A12E00162492 /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18657F422BC1A12E00162492 /* WeSplitUITests.swift */; };
-		18657F452BC1A12E00162492 /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18657F442BC1A12E00162492 /* WeSplitUITestsLaunchTests.swift */; };
+		18657F582BC7E8B500162492 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18657F572BC7E8B500162492 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +34,12 @@
 /* Begin PBXFileReference section */
 		18657F242BC1A12C00162492 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18657F272BC1A12C00162492 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		18657F292BC1A12C00162492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18657F292BC1A12C00162492 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; };
 		18657F2B2BC1A12E00162492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18657F2E2BC1A12E00162492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18657F342BC1A12E00162492 /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18657F382BC1A12E00162492 /* WeSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitTests.swift; sourceTree = "<group>"; };
 		18657F3E2BC1A12E00162492 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18657F422BC1A12E00162492 /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
-		18657F442BC1A12E00162492 /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18657F572BC7E8B500162492 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				18657F262BC1A12C00162492 /* WeSplit */,
-				18657F372BC1A12E00162492 /* WeSplitTests */,
-				18657F412BC1A12E00162492 /* WeSplitUITests */,
 				18657F252BC1A12C00162492 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				18657F272BC1A12C00162492 /* WeSplitApp.swift */,
+				18657F572BC7E8B500162492 /* SwiftUIView.swift */,
 				18657F292BC1A12C00162492 /* ContentView.swift */,
 				18657F2B2BC1A12E00162492 /* Assets.xcassets */,
 				18657F2D2BC1A12E00162492 /* Preview Content */,
@@ -108,23 +103,6 @@
 				18657F2E2BC1A12E00162492 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		18657F372BC1A12E00162492 /* WeSplitTests */ = {
-			isa = PBXGroup;
-			children = (
-				18657F382BC1A12E00162492 /* WeSplitTests.swift */,
-			);
-			path = WeSplitTests;
-			sourceTree = "<group>";
-		};
-		18657F412BC1A12E00162492 /* WeSplitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18657F422BC1A12E00162492 /* WeSplitUITests.swift */,
-				18657F442BC1A12E00162492 /* WeSplitUITestsLaunchTests.swift */,
-			);
-			path = WeSplitUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +237,7 @@
 			files = (
 				18657F2A2BC1A12C00162492 /* ContentView.swift in Sources */,
 				18657F282BC1A12C00162492 /* WeSplitApp.swift in Sources */,
+				18657F582BC7E8B500162492 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18657F392BC1A12E00162492 /* WeSplitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18657F432BC1A12E00162492 /* WeSplitUITests.swift in Sources */,
-				18657F452BC1A12E00162492 /* WeSplitUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
